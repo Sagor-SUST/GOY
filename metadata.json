@@ -1,0 +1,5 @@
+{
+  "name": "Copy of AbsVal Viz: Absolute Value Function Visualizer",
+  "description": "An interactive mathematical playground for exploring transformations of the absolute value function f(x) = a|x - h| + k with real-time graphing and AI-driven insights.",
+  "requestFramePermissions": []
+}

@@ -1,6 +1,6 @@
 
 import { GoogleGenAI } from "@google/genai";
-import { FunctionParams } from "../types";
+import { FunctionParams } from "../types.ts";
 
 export const getMathInsight = async (params: FunctionParams): Promise<string> => {
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || "" });

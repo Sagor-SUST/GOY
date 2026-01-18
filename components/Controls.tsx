@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { FunctionParams } from '../types';
+import { FunctionParams } from '../types.ts';
 
 interface ControlsProps {
   params: FunctionParams;

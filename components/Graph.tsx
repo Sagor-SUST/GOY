@@ -10,7 +10,7 @@ import {
   ResponsiveContainer,
   ReferenceLine,
 } from 'recharts';
-import { FunctionParams, DataPoint } from '../types';
+import { FunctionParams, DataPoint } from '../types.ts';
 
 interface GraphProps {
   params: FunctionParams;

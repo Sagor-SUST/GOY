@@ -1,9 +1,9 @@
 
-import React, { useState, useEffect, useCallback } from 'react';
-import { FunctionParams } from './types';
-import Graph from './components/Graph';
-import Controls from './components/Controls';
-import { getMathInsight } from './services/geminiService';
+import React, { useState, useEffect } from 'react';
+import { FunctionParams } from './types.ts';
+import Graph from './components/Graph.tsx';
+import Controls from './components/Controls.tsx';
+import { getMathInsight } from './services/geminiService.ts';
 
 const App: React.FC = () => {
   const [params, setParams] = useState<FunctionParams>({ a: 1, h: 0, k: 0 });
